@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.anand.ytvolley.userview2">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        android:visibility="visible"
+        app:logo="@drawable/events"
+        app:title=" View Event"
+        android:background="#081d30"
+        app:titleTextColor="#ffffff" />
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        app:cardCornerRadius="10dp"
+        android:layout_below="@id/toolbar3"
+        android:id="@+id/cardView3">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="450dp"
+            android:layout_alignStart="@+id/cardView3"
+            android:layout_centerVertical="true">
+
+
+            />
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="22dp"
+
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/lastdate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/name"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="24dp"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/roomno"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/lastdate"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="24dp"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/eventheld"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/roomno"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="24dp"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/eventheld"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="24dp"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/time"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="24dp"
+                android:inputType="textMultiLine"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/tv1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/lastdate"
+                android:layout_toEndOf="@+id/lastdate"
+                android:layout_toRightOf="@+id/lastdate"
+                android:text="Event Name:"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/tv1"
+                android:layout_alignBottom="@+id/tv1"
+                android:layout_toEndOf="@+id/tv1"
+                android:layout_toRightOf="@+id/tv1"
+                android:text="JAM"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/roomno"
+                android:layout_toEndOf="@+id/roomno"
+                android:layout_toRightOf="@+id/roomno"
+                android:text="Rounds :"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/textView4"
+                android:layout_marginLeft="19dp"
+                android:layout_marginStart="19dp"
+                android:layout_toEndOf="@+id/textView4"
+                android:layout_toRightOf="@+id/textView4"
+                android:text="1"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@+id/time"
+                android:layout_toRightOf="@+id/time"
+                android:text="Scheduled Date: "
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/textView13"
+                android:layout_alignBottom="@+id/textView13"
+                android:layout_toEndOf="@+id/textView13"
+                android:layout_toRightOf="@+id/textView13"
+                android:text="8th Dec 2018"
+                android:textSize="18sp" />
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+    <!-- <android.support.design.widget.BottomNavigationView
+         android:id="@+id/navigation"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentBottom="true"
+         android:layout_alignParentStart="true"
+         android:background="#ddeeff"
+         app:itemIconTint="@color/colorPrimaryDark"
+         app:itemTextColor="@color/colorPrimary"
+         app:layout_constraintBottom_toBottomOf="parent"
+         app:layout_constraintLeft_toLeftOf="parent"
+         app:layout_constraintRight_toRightOf="parent"
+         app:menu="@menu/navigation" />
+ -->
+</RelativeLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/view"
+        android:orderInCategory="100"
+        android:title="View Event"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/winners"
+        android:orderInCategory="100"
+        android:title="See Winners"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/register"
+        android:orderInCategory="100"
+        android:title="Register now"
+        app:showAsAction="never" />
+</menu>

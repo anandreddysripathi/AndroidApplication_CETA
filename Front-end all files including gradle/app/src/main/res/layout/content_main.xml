@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.anand.ytvolley.MainActivity"
+    tools:showIn="@layout/app_bar_main">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:title="      CETA"
+        app:popupTheme="@style/AppTheme.PopupOverlay"
+
+        android:background="#081d30"
+        app:titleTextColor="#ffffff"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:id="@id/t0"
+android:textColor="#01305e"
+        android:layout_below="@id/toolbar"
+        android:textSize="25dp"
+        android:text="                About us\n"/>
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/ds1" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        android:textColor="#01305e"
+        android:layout_below="@id/img1"
+        android:textSize="20dp"
+        android:id="@+id/t1"
+        android:paddingLeft="20dp"
+        android:text="Computer Engineers Technical Education\n\n"/>
+    <ImageView
+        android:id="@+id/img2"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/java" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        android:textColor="#01305e"
+        android:layout_below="@id/img1"
+        android:textSize="20dp"
+        android:id="@+id/t2"
+        android:paddingLeft="20dp"
+        android:text="Computer Engineers Technical Education\n\n"/>
+    <ImageView
+        android:id="@+id/img3"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/java" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        android:textColor="#01305e"
+        android:layout_below="@id/img1"
+        android:textSize="20dp"
+        android:id="@+id/t3"
+        android:paddingLeft="20dp"
+        android:text="Computer Engineers Technical Education\n\n"/>
+    <ImageView
+        android:id="@+id/img4"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/java" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        android:textColor="#01305e"
+        android:layout_below="@id/img1"
+        android:textSize="20dp"
+        android:id="@+id/t4"
+        android:paddingLeft="20dp"
+        android:text="Computer Engineers Technical Education\n\n"
+        tools:ignore="DuplicateIds" />
+
+</LinearLayout>
+</ScrollView>
+</RelativeLayout>

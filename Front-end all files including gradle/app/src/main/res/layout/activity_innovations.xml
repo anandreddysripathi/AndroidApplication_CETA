@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.anand.ytvolley.Innovations">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <android.support.v7.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:title="  Innovation Center"
+            app:logo="@drawable/pro1"
+            android:background="#081d30"
+            app:titleTextColor="#ffffff"
+
+            android:id="@+id/toolbar3">
+
+        </android.support.v7.widget.Toolbar>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/toolbar3"
+android:id="@+id/t1"
+            android:text="CETA Innovative Projects"
+            android:textSize="25sp"
+            android:paddingLeft="10dp"
+            android:textColor="#031083"
+            android:textStyle="bold"
+            tools:ignore="InvalidId" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="\n CETA Application:"
+            android:textColor="#064a74"
+            android:textStyle="italic"
+            android:textSize="23dp"
+            android:paddingLeft="5dp"
+            android:id="@+id/t0"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingLeft="10dp"
+            android:text="\nThis Apllication gives in detail info about CETA (Computer Engineer's Technical Application).\nDeveloped using Android Studios,and other databases.\nUser Friendly application!"
+            android:textSize="20sp"
+            android:textStyle="italic"
+            android:textColor="#323096"
+            android:id="@+id/t2"
+            tools:ignore="InvalidId" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="\nCOLLEGE Application:\n"
+            android:textSize="20sp"
+            android:paddingLeft="5dp"
+            android:textStyle="italic"
+            android:textColor="#064a74"
+            android:id="@+id/t3"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingLeft="10dp"
+            android:text="About our College, describing College in detail\nRegarding Fee structure,Admin operations,every thing in detail."
+            android:textSize="20sp"
+            android:textStyle="italic"
+            android:textColor="#323096"
+            android:id="@+id/t30"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="\nTUTORIALS Application:\n"
+            android:textSize="20sp"
+            android:textStyle="italic"
+            android:paddingLeft="5dp"
+            android:textColor="#064a74"
+
+            android:id="@+id/t4"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingLeft="10dp"
+            android:text="Application has various subjects tutorials.Even having quiz's to test to your skills.\n\n\n\n"
+            android:textSize="20sp"
+            android:textStyle="italic"
+            android:textColor="#323096"
+            android:id="@+id/t40"
+            />
+
+
+          </LinearLayout>
+</ScrollView>
+
+   <!-- <android.support.design.widget.BottomNavigationView
+        android:id="@+id/navigation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:background="#ddeeff"
+        app:itemIconTint="@color/colorPrimaryDark"
+        app:itemTextColor="@color/colorPrimary"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:menu="@menu/navigation" />-->
+</RelativeLayout>
